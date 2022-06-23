@@ -1,0 +1,169 @@
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+/* sidebar */
+.sidebar {
+  position: fixed;
+  background: #1c4266;
+  width: 90px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.sidebar ul li {
+  margin: 50px 0px 20px 0px;
+  list-style: none;
+  font-size: 25px;
+}
+
+.sidebar ul li a {
+  color: rgb(207, 207, 207);
+}
+
+.sidebar ul li a:hover {
+  color: white;
+  margin-left: 20px;
+  transition: 0.4s;
+}
+
+/* main container */
+
+.main {
+  margin-left: 90px;
+}
+
+/* button panel */
+.button-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  margin-top: -40px;
+  z-index: 1;
+  background-color: white;
+  align-items: center;
+}
+
+.box1 {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* colunm search */
+.box3 {
+  width: 100px;
+  border-radius: 8px;
+  background-color: #1c4266;
+}
+
+/* icon pada button panel */
+.icon-btn-pnl {
+  /* top | right | bottom | left */
+  padding: 5px 0px 10px 0px;
+}
+
+/* flex container */
+
+.left-con {
+  background-color: #1c4266;
+  border-top: 8px solid #d3b452;
+  text-align: justify;
+}
+
+/* left container */
+
+/* title for all title in the page */
+.title {
+  color: white;
+  font-weight: 500;
+  margin: 10px;
+  text-align: start;
+}
+
+.news-container {
+  margin: 10px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.news-link {
+  color: white;
+  text-decoration: none;
+  text-align: justify;
+  font-size: 11px;
+}
+.date {
+  font-size: 11px;
+  color: rgb(172, 172, 172);
+  text-align: right;
+  /* top | right | bottom | left */
+  padding: 10px 10px 0px 0px;
+}
+
+/* center container */
+.carousel-title {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+
+.carousel-text {
+  background-color: #a21f34;
+  padding: 10px 30px 10px 30px;
+  text-align: start;
+  color: white;
+  font-size: small;
+}
+
+.con2-text {
+  text-align: start;
+  color: #7ba5cc;
+  font-size: small;
+}
+
+/* right container */
+
+.base-right-con {
+  background-color: white;
+}
+
+.yellowline-con {
+  border-top: 8px solid #d3b452;
+  background-color: #1c4266;
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+}
+
+.imge {
+  padding: 20px;
+  width: 250px;
+  height: 150px;
+}
+
+.input {
+  width: 170px;
+  height: 25px;
+}
+
+/* Footer */
+
+.footer {
+  border-top: 8px solid #d3b452;
+  background-color: #1c4266;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  line-height: 10px;
+  padding: 20px;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: #d3b452;
+  font-weight: 500;
+  text-align: start;
+  font-size: 15px;
+}
